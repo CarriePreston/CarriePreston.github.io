@@ -1,9 +1,31 @@
 body {
+  width: 960px;
+  margin: 0 auto;
   font-family: 'Dosis', 'helvetica neue', arial, sans-serif;
   font-weight: 300;
+  color: black;
+  background-color: orange;
   background: url(sandpaperbackground.png) repeat;
 }
-#wrapper {
-  width: 960px;
+p, li { 
+  font-size: 16px;
+  line-height: 24px;
+}
+#title {
+  float: left; 
+  padding: 40px;
+}
+#route {
+  width: 960px auto;
   margin: 20px auto;
+  float: right;
+  border: 10px dotted lightblue;
+}
+#table {
+  border: 5px solid black;
+  padding: 20px;
+}
+#author {
+  clear: both;
+  margin-top: 20px;
 }
