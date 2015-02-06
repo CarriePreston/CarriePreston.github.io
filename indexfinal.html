@@ -12,14 +12,16 @@
     <!-- Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- My own styles -->
-    <link rel="stylesheet" href="styleweek3.css">
+    <link rel="stylesheet" href="stylefinal.css">
   </head>
   <body>
+    <video autoplay loop poster="graybackground.jpg" id="bgvid">
+    <source src="giraffe.mp4" type="video/mp4"> 
+  </video>
     <div class="container">
       <nav class="navbar navbar-inverse" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -40,11 +42,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
             <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
-                Star Players
+                Shortcut
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="http://chicago.cubs.mlb.com/team/player.jsp?player_id=519166#gameType='R'&sectionType=career&statType=2&season=2015&level='ALL'">Neil Ramirez</a></li>
                 <li><a href="#capetown">Capetown</a></li>
                 <li><a href="#stellenbosch">Stellenbosch</a></li>
                 <li><a href="#inverdoorn">Inverdoorn Game Reserve</a></li>
@@ -85,11 +86,11 @@
 <a name="ourroute"></a>
 <h2>Our Route</h2>
       <p>
-        Cape Town --> Stellenbosch --> Inverdoorn --> Hermanus --> Cape Town
+        Cape Town <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Stellenbosch <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Inverdoorn <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Hermanus <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Cape Town
       </p>
       <p>
       <div id="route">
-      <img src="cubslogo.jpg">
+      <img src="route.jpg">
       </div>
     </p>
         <a name="capetown"></a>
@@ -148,7 +149,7 @@
         <div class="col-md-12 col-md-offset-0 reviews">
           <h3 class="page-header">Animals</h3>
           <table class="table table-striped table-bordered">
-            <tr>
+            <tr style="background-color: #C0C0C0">
       <td>Lions</td>
       <td>There are three lions on the reserve, one male and two female. All three have been rescued from cage hunters.  Since they have never been in the wild, they do not know how to hunt and are fed each day by the caretakers of Inverdoorn</td>
     </tr>
@@ -156,7 +157,7 @@
       <td>Cheetahs</td>
       <td>There are two male cheetahs in the reserve.  Additionally, Inverdoorn has a cheetah rehibilitation center where they care for cheetahs before releasing them into the wild.</td>
     </tr>
-    <tr>
+    <tr style="background-color: #C0C0C0">
       <td>Rhinos</td>
       <td>There are three rhinos in the reserve which have to be carefully watched for fear of poachers.  In recent years, the Rhino popoulation has been declining due the rising value of the horns, which rhinos are killed for.</td>
     </tr>
@@ -164,7 +165,7 @@
       <td>Giraffes</td>
       <td>There are 16 giraffe on the reserve.  15 of them can often be found together in a pack, while one older male tends to wander around by himself since he was kicked out of the pack by a younger male giraffe.</td>
     </tr>    
-    <tr>
+    <tr style="background-color: #C0C0C0">
       <td>Hippos</td>
       <td>The two hippos located on the reserve can usually be found near one of the two lakes on the reserve since they spend a majority of their time near water.</td>
     </tr>    
@@ -173,7 +174,7 @@
       <td>The reserve has many zebras.  They are often found in packs and usually surround their young to protect them from other animals. </td>
     </tr>
 
-      <tr>
+      <tr style="background-color: #C0C0C0">
       <td>Springbok</td>
       <td>Springbok can be found in abundence in the reserve.  They are prey of the cheetah. </td>
     </tr>
@@ -200,12 +201,12 @@
     <section>
         </div>
         <div class="col-md-3 research">
-          <h2>Recommended Research Sites</h2>
+          <h2>Recommended Research:</h2>
           <ul class="list-unstyled">
-            <li><a href="https://www.airbnb.com/s/South-Africa">Air BnB</a> for Housing</li>
-            <li><a href="http://www.tripadvisor.com/Tourism-g293740-South_Africa-Vacations.html">Trip Advisor</a> as Top Attractions</li>
-            <li><a href="http://www.eatout.co.za/article/south-africas-top-10-restaurants/">Eat Out</a> for the Best Restaurants</li>
-            <li><a href="http://news.nationalgeographic.com/news/2004/12/photogalleries/south_africa_tourism/">National Geographic</a> for Must-Sees</li>
+            <li><a href="https://www.airbnb.com/s/South-Africa" style="color:orange">Air BnB</a> for Housing</li>
+            <li><a href="http://www.tripadvisor.com/Tourism-g293740-South_Africa-Vacations.html" style="color:orange">Trip Advisor</a> for Top Attractions</li>
+            <li><a href="http://www.eatout.co.za/article/south-africas-top-10-restaurants/" style="color:orange">Eat Out</a> for the Best Restaurants</li>
+            <li><a href="http://news.nationalgeographic.com/news/2004/12/photogalleries/south_africa_tourism/" style="color:orange">National Geographic</a> for Must-Sees</li>
           </ul>
         </div>
       </div>
@@ -229,17 +230,22 @@
  
 
     </section>
-            <h4>Carrie is originally from Northbrook, IL</h4>
+            <h5>Carrie is originally from Northbrook, IL. She currently resides in Evanston, IL.</h5>
           </div>
 
           <div class="review">
-            <h4>Carrie's Favorite Movie</h4>
+            <h5>Carrie's Favorites:</h5>
+            <ul>
             <h5>
-              <li><a href="movie.html">Carrie's Favorite Movie</a></li>
+              <li><a href="movie.html" style="color:orange">Favorite Movie</a></li>
             </h5>
-      <h5>Connect With Me:</h5>
+            <h5>
+              <li><a href="movie.html" style="color:orange">Favorite Sports Teams</a></li>
+            </h5>
+            </ul>
+      <h5>Connect With Carrie:</h5>
       <ul>
-        <li><a href="mailto:cpreston2015@kellogg.northwestern.com">Email</a></li>
+        <li><a href="mailto:cpreston2015@kellogg.northwestern.com" style="color:orange">Email</a></li>
       </ul>
           </div>
         </div>

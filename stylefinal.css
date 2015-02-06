@@ -1,0 +1,54 @@
+body {
+  margin-top: 30px;
+  background: url(graybackground.jpg); 
+  color: #ffffff;
+  font-family: 'Garamond', cursive;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-brand {
+  font-family: 'Garamond', cursive;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+video#bgvid {
+  position: fixed; 
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -50;
+  background: url(graybackground.jpg) no-repeat;
+}
+h1.title {
+  padding: 0 40px 40px 0;
+}
+h2 {
+  font-size: 26px;
+}
+.rating {
+  font-size: 0.4em;
+  text-transform: uppercase;
+  padding: 4px;
+  vertical-align: middle;
+}
+.summary h2, .research h2 {
+  margin-top: 20;
+  font-size: 26px;
+}
+.container{
+  margin-top: 0;
+  background-color: rgba(88,88,88,0.7)
+}
+.text-muted{
+  color: #ffffff;
+}
+.research li {
+  line-height: 24px;
+}
+.review {
+  margin-bottom: 30px;
+}

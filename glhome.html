@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style>
+
+html {
+  max-width: 1500px;
+  margin: 0 auto;
+  background: #eee; /* Fills the page */
+  position: relative; /* Fix for absolute positioning */
+}
+
+body {
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	position: absolute;
+	left: 40px;
+	top: 15px;
+}
+
+img#twit {
+	position: relative;
+	float: left; 
+	top:25px;  
+}
+
+img#insta {
+	position: relative;
+	float:left;
+}
+
+img#school {
+	position: relative;
+	float:left;
+}
+
+img#six {
+	position: relative;
+	left: -30px;
+	top: 30px;
+}
+img#menu{
+	position:relative;
+	float: center;
+	padding: 10px;
+	top: 170px;
+	width: 340px;
+	height: 200px;
+}
+
+#wrapper{
+			width: auto; 
+			height: auto;
+			margin-left: 10; 
+			margin-right: auto; 
+			position: relative;
+			min-height: 100%;
+}
+
+#header {
+    position: relative;
+    top: 20px;
+    width: auto;
+    background-color:black;
+    color:white;
+    text-align:right;
+    height:100px;
+    margin-bottom: 3px;
+    opacity: 0.7;
+}
+
+#section {
+	min-height: 500px;
+	height: auto; /* Play around with the hieght and see if foot sticks to bottom at all times */ 
+	width: auto;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 56px;
+	left: 40px;
+	vertical-align:middle;
+}
+
+#footer {
+   	height: 75px;
+   	width: auto;
+   	opacity: 0.9;	 
+	position: relative; 
+	bottom: 25;
+	text-align: center; 
+    background-color:black;
+    color:white;	 
+}
+
+video#bgvid {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -50;
+	background: url(cowgill.jpg) no-repeat;
+	background-size: cover;
+	audio: 0;
+}
+
+</style>
+</head>
+
+<body>	
+	<video autoplay loop poster="homepics/cowgill.jpg" id="bgvid">
+		<source src="bridge.mp4" type="video/mp4">	
+	</video>
+
+<div id="wrapper">
+
+	<div id="header">
+		<img id="six" src="homepics/the6.png" width="150" height="75">
+	</div>
+
+	<img src="homepics/glogo.png" width="180" height="200">
+
+	<div id="section">
+		<a href="work.html">
+			<img id="menu" src="homepics/trava.png">
+		</a>
+		<img id="menu" src="homepics/etude.png" >
+		<img id="menu" src="homepics/jouer.png" >
+	</div>
+
+	<div id="footer">    
+		<img id="twit" src="homepics/twitlogo.png" width="40" height="30">
+		<img id="insta" src="homepics/instalogo.png" width="50" height="50">
+		<img id="school" src="homepics/edulogo.png" width="50" height="50">
+	</div>
+
+</div>
+
+</body>
+</html>
